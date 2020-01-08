@@ -1,0 +1,50 @@
+.resume {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 40px;
+    display: inline-table;
+}
+
+
+.resume-title {
+    font-size: 70px;
+    color: rgb(202, 202, 202);
+}
+
+.my {
+    font-size: 50px;
+    color: rgb(155, 39, 116) !important;
+}
+
+.line {
+    background: rgb(141, 141, 141);
+    color: white;
+    border-radius: 170px 170px 170px 170px;
+    width: 6%;
+    padding-left: 5px;
+}
+
+.work {
+    line-height: normal;
+    margin: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: rgb(83, 83, 83);
+    border-radius: 170px 170px 170px 170px;
+    color: white;
+    width: auto;
+}
+
+.second-title {
+    line-height: normal;
+    margin: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: rgb(141,141,141);
+    border-radius: 170px 170px 170px 170px;
+    color: white;
+    width: auto;
+}
