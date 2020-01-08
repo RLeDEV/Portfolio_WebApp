@@ -36,7 +36,7 @@ class Resume extends React.Component {
                     <div className="work">
                         
                                 <i>August 2019 - Present - </i>
-                                    NOC Engineer
+                                    Part-Time position
                     </div>
                     <ul className="general">
                         <li>
