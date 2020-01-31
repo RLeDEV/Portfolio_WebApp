@@ -138,7 +138,8 @@
   position: relative;
   z-index: 0;
   opacity: .89;
-  padding: 13px 21px;
+  padding: 35px 21px;
+  background: linear-gradient(to bottom, rgba(51, 51, 51, 0) 50%,rgba(63, 63, 63, 0.89) 100%);
 }
 
 .card:before,
@@ -179,33 +180,15 @@
 .col:nth-of-type(3) .card-container:nth-of-type(1) .card:before{
       background-image: url('https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
 }
-
-.col:nth-of-type(1) .card-container:nth-of-type(2) .card:before{
-      background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/jwst-pv-145604copy.jpg?itok=Jq7GN-Rc');
+.col:nth-of-type(4) .card-container:nth-of-type(1) .card:before{
+  background-image: url('https://images.unsplash.com/photo-1460398495418-62c9b5d79fbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80');
 }
-
-.col:nth-of-type(2) .card-container:nth-of-type(2) .card:before{
-      background-image: url('https://www.nasa.gov/sites/default/files/styles/ubernode_alt_horiz/public/thumbnails/image/worldview201709201920x1080.png');
-}
-
-.col:nth-of-type(3) .card-container:nth-of-type(2) .card:before{
-      background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/nasasibexobs.jpg?itok=U2LCp14i');
-}
-
-.col:nth-of-type(1) .card-container:nth-of-type(3) .card:before{
-      background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/pia19808.jpg?itok=rgxgamMM');
-}
-
-.col:nth-of-type(2) .card-container:nth-of-type(3) .card:before{
-      background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/e0102_lg.jpg?itok=sd9lOayI');
-}
-
-.col:nth-of-type(3) .card-container:nth-of-type(3) .card:before{
-      background-image: url('https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/asteroid20180605-home.jpg?itok=KSUffiCR');
+.col:nth-of-type(5) .card-container:nth-of-type(1) .card:before{
+  background-image: url('https://images.unsplash.com/photo-1543286386-2e659306cd6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
 }
 
 .card:after{
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 50%,rgba(0,0,0,0.89) 100%);
+  background: linear-gradient(to bottom, rgba(128, 128, 128, 0) 50%,rgba(138, 138, 138, 0.89) 100%);
 }
 
 h4{
@@ -270,13 +253,13 @@ h4{
   }
   
 .card > span{
-      display: none;
+      font-size: 10px;
   }
 }
 
 @media (max-height: 599px){
 .card > span{
-      display: none;
+    font-size: 20px;
   }
 }
 

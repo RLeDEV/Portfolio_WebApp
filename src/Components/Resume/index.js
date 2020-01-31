@@ -19,7 +19,7 @@ class Resume extends React.Component {
                     </div>
                 <ul className="general">
                     <li>
-                        26 years old, on my second year in H.I.T, studying B.Sc at Computer Science, 
+                        26 years old, on my <b>second year</b> in H.I.T, studying <b>B.Sc at Computer</b> Science, 
                         looking for an opportunity to integrate with the Israeli High-Tech industry.
                         <br />
                         I am highly experienced in stressful situations, have multi-tasking abilities
@@ -89,6 +89,12 @@ class Resume extends React.Component {
                             C, Python, CSS, HTML, JavaScript, ReactJS, C++, MySQL, Git, Windows, Mac OS, Linux.
                         </li>
                     </ul>
+                    <div className="download-btn">
+                    <button type="button" className="btn btn-outline-secondary" onClick={() => window.open('https://www.docdroid.net/file/download/ThMiGb1/razlevy.pdf')}>Download PDF</button>
+                    </div>
+                    <div className="download-btn2">
+                    <button type="button" className="btn btn-outline-secondary" onClick={() => window.open('mailto:bos901@gmail.com')}>Mail Me</button>
+                    </div>
                 </div>
             </div>
         );

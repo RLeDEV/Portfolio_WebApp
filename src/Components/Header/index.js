@@ -21,9 +21,9 @@ class Header extends React.Component {
                 
                     <h1 className="name">Raz Levy</h1>
                     <hr size="2" className="header-hr"/>
-                    <span className="subtitle">FullStack Developer</span>
+                    <span className="subtitle">Developer & Student</span>
                     <br />
-                    <div className="frameworks-header">ReactJS, HTML, CSS, C, C++, SQL</div>
+                    <div className="frameworks-header">JavaScript, ReactJS, HTML, CSS, C, C++, SQL, GIT</div>
                 </div>
             </header>
         );

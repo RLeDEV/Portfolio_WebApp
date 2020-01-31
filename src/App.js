@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
-import Section from "./Components/Section";
 import Header from "./Components/Header";
 import About from './Components/About';
 import Frameworks from './Components/Platforms';
@@ -31,12 +30,6 @@ class App extends Component {
           subtitle={dummyText}
           dark={true}
           id="section3"
-        />
-        <Section
-          title="Section 4"
-          subtitle={dummyText}
-          dark={false}
-          id="section4"
         />
         <Frameworks
           title="Section 5"

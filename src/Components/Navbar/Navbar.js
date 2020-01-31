@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import icon from './icon.png';
 import { Link, animateScroll as scroll } from "react-scroll";
 
+
+
 export default class Navbar extends Component {
   scrollToTop = () => {
     scroll.scrollToTop();
@@ -57,18 +59,6 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section4"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >
-                Contact
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
                 to="section5"
                 spy={true}
                 smooth={true}
@@ -76,6 +66,20 @@ export default class Navbar extends Component {
                 duration={1000}
               >
                 Platforms
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+              >
+                <i class="fa fa-github fa-lg" onClick={()=> window.open("https://github.com/RLeDEV", "_blank")} aria-hidden="true"></i> 
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+              >
+                <i class="fa fa-linkedin-square fa-lg" onClick={() => window.open("https://www.linkedin.com/in/raz-levy/")} aria-hidden="true" style={{'color': '#007bb6'}}></i>
               </Link>
             </li>
           </ul>
