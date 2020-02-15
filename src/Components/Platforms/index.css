@@ -74,6 +74,7 @@
     display: none;
 }
 
+
 @keyframes myAnimation{
     0%{
       opacity: 1;

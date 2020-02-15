@@ -3,6 +3,7 @@ import cpp from './Icons/icons8-c++-100.png';
 import python from './Icons/icons8-python-100.png';
 import react from './Icons/icons8-react-native-100.png';
 import mysql from './Icons/icons8-mysql-logo-100.png';
+import html from './Icons/icons8-html-5-100.png';
 import './index.css';
 
 const styles = {
@@ -15,7 +16,7 @@ class Frameworks extends React.Component {
         return (
             <div id={this.props.id} className="frameworks" style={styles}>
                 <div className="frameworks-title">
-                    <p>Platforms:</p>
+                    {/* <p>Platforms:</p> */}
                 </div>
                 <div class="sosial-links">
                     <div className="img">
@@ -23,6 +24,14 @@ class Frameworks extends React.Component {
                             <img src={cpp} alt="cpp" />
                             <div className="platform-description">
                                 C Plus Plus (C++)
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={html} alt="html" />
+                            <div className="platform-description">
+                                HTML
                             </div>
                         </div>
                     </div>
