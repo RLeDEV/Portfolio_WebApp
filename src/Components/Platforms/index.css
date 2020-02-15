@@ -43,3 +43,38 @@
     font-size: 20px;
     color: rgb(85, 85, 85);
 }
+
+.img .img-in:hover > .platform-description {
+    font-weight: bold;
+    cursor: default;
+    font-size: 20px;
+    color: rgb(85,85,85);
+}
+
+
+.img .img-in:hover > .platform-description {
+    animation-name: myAnimation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+    display: block;
+}
+
+.platform-description {
+    display: none;
+}
+
+@keyframes myAnimation{
+    0%{
+      opacity: 1;
+      transform: rotateX(90deg);
+    }
+    50%{
+      opacity: 0.5;
+      transform: rotateX(0deg);
+    }
+    100%{
+      display: none;
+      opacity: 0;
+      transform: rotateX(90deg);
+    }
+  }
