@@ -18,10 +18,38 @@ class Frameworks extends React.Component {
                     <p>Platforms:</p>
                 </div>
                 <div class="sosial-links">
-                    <a href="#cpp"><img src={cpp} alt="cpp" /></a>
-                    <a href="#python"><img src={python} alt="python" /></a>
-                    <a href="#react"><img src={react} alt="react" /></a>
-                    <a href="#mysql"><img src={mysql} alt="mysql" /></a>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={cpp} alt="cpp" />
+                            <div className="platform-description">
+                                C Plus Plus (C++)
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={python} alt="python" />
+                            <div className="platform-description">
+                                Python
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={react} alt="react" />
+                            <div className="platform-description">
+                                React JS
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={mysql} alt="mysql" />
+                            <div className="platform-description">
+                                MySQL
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

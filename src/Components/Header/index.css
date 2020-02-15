@@ -1,13 +1,12 @@
 .header {
     margin:0;
     text-align: center;
-    padding-top: 50px;
     border: 10px solid #fff;
     position: sticky;
 }
 
 .header .name{
-    padding-top: 100px;
+    padding-top: 10%;
     font-family: "Montserrat", sans-serif;
     font-size: 70px;
     color: #fff;

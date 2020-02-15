@@ -89,11 +89,13 @@ class Resume extends React.Component {
                             C, Python, CSS, HTML, JavaScript, ReactJS, C++, MySQL, Git, Windows, Mac OS, Linux.
                         </li>
                     </ul>
-                    <div className="download-btn">
-                    <button type="button" className="btn btn-outline-secondary" onClick={() => window.open('https://www.docdroid.net/file/download/ThMiGb1/razlevy.pdf')}>Download PDF</button>
-                    </div>
-                    <div className="download-btn2">
-                    <button type="button" className="btn btn-outline-secondary" onClick={() => window.open('mailto:bos901@gmail.com')}>Mail Me</button>
+                    <div className="btns">
+                        <div className="download-btn">
+                            <button type="button" className="btn btn-outline-secondary downloadpdf" onClick={() => window.open('https://www.docdroid.net/file/download/ThMiGb1/razlevy.pdf')}>Download PDF</button>
+                        </div>
+                        <div className="mail-btn">
+                            <button type="button" className="btn btn-outline-secondary" onClick={() => window.open('mailto:bos901@gmail.com')}>Mail Me</button>
+                        </div>
                     </div>
                 </div>
             </div>

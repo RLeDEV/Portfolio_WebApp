@@ -1,29 +1,45 @@
 .frameworks *{
     text-align: center;
     padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .frameworks-title {
     font-family: 'Raleway', sans-serif;
-    padding-bottom: 80px;
     font-weight: 50;
     font-size: 30px;
 }
 
-.sosial-links a{
-    display: inline-block;
+.sosial-links{
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    margin: 40px auto 0 auto;
+}
+
+.img {
+    flex: 1;
+    flex-basis: 30%;
+    padding: 30px;
+}
+
+.img-in {
     width: 150px;
     height: 150px;
     border: 2px solid rgba(165, 165, 165, 0.5);
-    border-radius: 75px;
-    margin: 35px;
     box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.5);
-    background-color: #fff;
-    
+    border-radius: 75px;
+    box-sizing: border-box;
+}
 
-} 
-.sosial-links a img{
+.img .platform-description {
+    padding-top: 35px;
+    color: rgb(165, 165, 165)
+}
+
+.img .platform-description:hover {
+    font-weight: bold;
+    cursor: default;
     font-size: 20px;
-    color: #fff;
-    opacity: 100%;
+    color: rgb(85, 85, 85);
 }
