@@ -59,6 +59,17 @@
     display: block;
 }
 
+.img .img-in:not(:hover) > .platform-description {
+    animation-name: outAnimation;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    display: block;
+    font-weight: bold;
+    cursor: default;
+    font-size: 20px;
+    color: rgb(85,85,85);
+}
+
 .platform-description {
     display: none;
 }
@@ -73,8 +84,17 @@
       transform: rotateX(0deg);
     }
     100%{
-      display: none;
-      opacity: 0;
-      transform: rotateX(90deg);
     }
   }
+
+@keyframes outAnimation {
+    50%{
+        opacity: 0.5;
+        transform: rotateX(0deg);
+    }
+    100%{
+        display: none;
+        opacity: 0;
+        transform: rotateX(90deg);
+    }
+}
