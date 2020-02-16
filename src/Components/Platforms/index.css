@@ -1,7 +1,8 @@
 .frameworks *{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 8px;
     font-family: 'Raleway', sans-serif;
+    height: 80px;
 }
 
 .frameworks-title {
@@ -14,7 +15,7 @@
     display: flex;
     max-width: 600px;
     justify-content: center;
-    margin: 40px auto 0 auto;
+    margin: 10px auto 0 auto;
 }
 
 .img {
@@ -24,8 +25,8 @@
 }
 
 .img-in {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     border: 2px solid rgba(165, 165, 165, 0.5);
     box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.5);
     border-radius: 75px;
@@ -40,14 +41,14 @@
 .img .platform-description:hover {
     font-weight: bold;
     cursor: default;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(85, 85, 85);
 }
 
 .img .img-in:hover > .platform-description {
     font-weight: bold;
     cursor: default;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(85,85,85);
 }
 
@@ -66,7 +67,7 @@
     display: block;
     font-weight: bold;
     cursor: default;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(85,85,85);
 }
 

@@ -4,7 +4,8 @@ import python from './Icons/icons8-python-100.png';
 import react from './Icons/icons8-react-native-100.png';
 import mysql from './Icons/icons8-mysql-logo-100.png';
 import html from './Icons/icons8-html-5-100.png';
-import javascript from './Icons/icons8-javascript-100.png'
+import javascript from './Icons/icons8-javascript-100.png';
+import css from './Icons/icons8-css3-100.png';
 import './index.css';
 
 const styles = {
@@ -65,6 +66,14 @@ class Frameworks extends React.Component {
                             <img src={javascript} alt="javascript" />
                             <div className="platform-description">
                                 JavaScript
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={css} alt="css" />
+                            <div className="platform-description">
+                                CSS
                             </div>
                         </div>
                     </div>
