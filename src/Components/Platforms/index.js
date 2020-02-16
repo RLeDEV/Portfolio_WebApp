@@ -4,10 +4,11 @@ import python from './Icons/icons8-python-100.png';
 import react from './Icons/icons8-react-native-100.png';
 import mysql from './Icons/icons8-mysql-logo-100.png';
 import html from './Icons/icons8-html-5-100.png';
+import javascript from './Icons/icons8-javascript-100.png'
 import './index.css';
 
 const styles = {
-    height: '90vh',
+    height: '60vh',
     weight: '1000px !important'
 }
 
@@ -56,6 +57,14 @@ class Frameworks extends React.Component {
                             <img src={mysql} alt="mysql" />
                             <div className="platform-description">
                                 MySQL
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={javascript} alt="javascript" />
+                            <div className="platform-description">
+                                JavaScript
                             </div>
                         </div>
                     </div>
