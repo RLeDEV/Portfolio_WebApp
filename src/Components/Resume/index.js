@@ -72,7 +72,7 @@ class Resume extends React.Component {
                         Education:
                     </div>
                     <br/>
-                    <div class="work">
+                    <div className="work">
                         <i>2018 - Today - </i>
                         <b>B.Sc. Computer Science, Holon Institue of Technology</b>
                     </div>

@@ -20,7 +20,7 @@ class Frameworks extends React.Component {
                 <div className="frameworks-title">
                     {/* <p>Platforms:</p> */}
                 </div>
-                <div class="sosial-links">
+                <div className="sosial-links">
                     <div className="img">
                         <div className="img-in">
                             <img src={cpp} alt="cpp" />

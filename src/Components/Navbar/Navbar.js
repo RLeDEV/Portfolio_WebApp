@@ -71,15 +71,17 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
+                to=''
               >
-                <i class="fab fa-github fa-lg" onClick={()=> window.open("https://github.com/RLeDEV", "_blank")} aria-hidden="true"></i> 
+                <i className="fab fa-github fa-lg" onClick={()=> window.open("https://github.com/RLeDEV", "_blank")} aria-hidden="true"></i> 
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
+                to=''
               >
-                <i class="fab fa-linkedin fa-lg" onClick={() => window.open("https://www.linkedin.com/in/raz-levy/")} aria-hidden="true" style={{'color': '#007bb6'}}></i>
+                <i className="fab fa-linkedin fa-lg" onClick={() => window.open("https://www.linkedin.com/in/raz-levy/")} aria-hidden="true" style={{'color': '#007bb6'}}></i>
               </Link>
             </li>
           </ul>
