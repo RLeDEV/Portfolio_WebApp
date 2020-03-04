@@ -1,0 +1,33 @@
+.keep-touch-header {
+    border: 0px solid #fff;
+    margin-bottom: 5px;
+}
+
+.keep-touch {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.get-in-touch {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.btns {
+    display: flex;
+    justify-content:center;
+    margin: 1%;
+}
+
+.download-btn button{
+    flex:1; 
+    background-color: rgb(226, 226, 226);
+}
+
+.mail-btn button    {
+    flex:1;
+    margin-left: 5px;
+    background-color: rgb(226, 226, 226);
+}

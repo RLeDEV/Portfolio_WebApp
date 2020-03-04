@@ -6,6 +6,7 @@ import About from './Components/About';
 import Frameworks from './Components/Platforms';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
+import KeepTouch from './Components/KeepTouch';
 import dummyText from "./DummyText";
 class App extends Component {
   render() {
@@ -24,6 +25,9 @@ class App extends Component {
           subtitle={dummyText}
           dark={false}
           id="section2"
+        />
+        <KeepTouch 
+          id="KeepTouch"
         />
         <Portfolio
           title="Section 3"
