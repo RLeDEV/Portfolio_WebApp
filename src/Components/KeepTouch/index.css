@@ -6,7 +6,7 @@
 .keep-touch {
     color: white;
     text-align: center;
-    padding-top: 50px;
+    padding: 70px 0 0;
 }
 
 .get-in-touch {
@@ -18,7 +18,7 @@
 .btns {
     display: flex;
     justify-content:center;
-    margin: 1%;
+    padding: 1% 0 0;
 }
 
 .download-btn button{
