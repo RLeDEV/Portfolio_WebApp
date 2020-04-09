@@ -11,7 +11,7 @@ class About extends React.Component {
         return(
             <header style={styles} className="about-me-header">
                 <div className="section-content about" id={this.props.id}>
-                    <span className="aboutme-title">About Me</span>
+                    <span className="aboutme-title">about me</span>
                     <div className="study">I'm a Full Stack Developer from Holon, Israel, B.Sc Student.</div>
                     <p className="about-text">
                         I enjoy taking complex problems and turning them into simple and beautify interface designs.
