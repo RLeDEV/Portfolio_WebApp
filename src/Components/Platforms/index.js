@@ -6,6 +6,8 @@ import mysql from './Icons/icons8-mysql-logo-100.png';
 import html from './Icons/icons8-html-5-100.png';
 import javascript from './Icons/icons8-javascript-100.png';
 import css from './Icons/icons8-css3-100.png';
+import java from './Icons/icons8-java-100.png';
+import nodejs from './Icons/icons8-nodejs-100.png';
 import './index.css';
 
 const styles = {
@@ -29,14 +31,14 @@ class Frameworks extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="img">
+                    {/* <div className="img">
                         <div className="img-in">
                             <img src={html} alt="html" />
                             <div className="platform-description">
                                 HTML
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="img">
                         <div className="img-in">
                             <img src={python} alt="python" />
@@ -74,6 +76,22 @@ class Frameworks extends React.Component {
                             <img src={css} alt="css" />
                             <div className="platform-description">
                                 CSS
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={java} alt="java" />
+                            <div className="platform-description">
+                                Java
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img">
+                        <div className="img-in">
+                            <img src={nodejs} alt="nodejs" />
+                            <div className="platform-description">
+                                NodeJS
                             </div>
                         </div>
                     </div>

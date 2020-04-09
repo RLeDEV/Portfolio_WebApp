@@ -6,6 +6,18 @@ class Portfolio extends React.Component {
     render() {
         return(
             <div id={this.props.id} className="portfolio">
+                <div className="col"  onClick={()=> window.open("https://github.com/RLeDEV/Salary_Web_Caculator")}>
+                    <div className="card-container">
+                        <div className="overlay" />
+                        <div className="overlay"></div>
+                        <div className="overlay" />
+                        <div className="overlay" />
+                        <div className="card">
+                            <h4>EasyCalc(ReactJS & Express)</h4>
+                            <span className="chev">&rsaquo; Salary calculator UI for HR.</span>
+                        </div>
+                    </div>
+                </div>
                 <div className="col"  onClick={()=> window.open("https://github.com/RLeDEV/Portfolio_WebApp")}>
                     <div className="card-container">
                         <div className="overlay" />
