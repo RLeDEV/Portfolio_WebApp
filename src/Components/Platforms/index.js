@@ -27,7 +27,7 @@ class Frameworks extends React.Component {
                         <div className="img-in">
                             <img src={cpp} alt="cpp" />
                             <div className="platform-description">
-                                C Plus Plus (C++)
+                                C++
                             </div>
                         </div>
                     </div>
