@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import icon from './icon.png';
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import './index.css';
 
 
 export default class Navbar extends Component {
@@ -20,7 +20,7 @@ export default class Navbar extends Component {
             onClick={this.scrollToTop}
           />
           <ul className="nav-items">
-            <li className="nav-item">
+            <li className="nav-item inside-link">
               <Link
                 activeClass="active"
                 to="section1"
@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                 About
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item  inside-link">
               <Link
                 activeClass="active"
                 to="section2"
@@ -44,7 +44,7 @@ export default class Navbar extends Component {
                 Resume
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item  inside-link">
               <Link
                 activeClass="active"
                 to="section3"
@@ -56,7 +56,7 @@ export default class Navbar extends Component {
                 Portfolio
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item  inside-link">
               <Link
                 activeClass="active"
                 to="section5"
