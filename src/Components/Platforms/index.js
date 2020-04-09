@@ -10,7 +10,7 @@ import './index.css';
 
 const styles = {
     height: '60vh',
-    weight: '1000px !important'
+    // weight: '1000px !important'
 }
 
 class Frameworks extends React.Component {
