@@ -9,7 +9,7 @@ import css from './Icons/icons8-css3-100.png';
 import './index.css';
 
 const styles = {
-    height: '60vh',
+    height: '50vh',
     // weight: '1000px !important'
 }
 
