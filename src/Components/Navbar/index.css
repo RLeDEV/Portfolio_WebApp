@@ -1,5 +1,5 @@
 @media (max-width: 670px) {
-    ul {
+    .nav-items {
         display: none;
     }
 }
