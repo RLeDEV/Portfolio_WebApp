@@ -74,6 +74,16 @@
     }
 }
 
+@media (max-width: 412px) {
+    .profileImg .details {
+        padding: 2px;
+        text-align: left;
+    }    
+    .profileImg .details .detail-desc {
+        margin-top: 3px;
+    }
+}
+
 @media (max-width: 960px) {
     .aboutme-title {
         font-size: 40px !important;
