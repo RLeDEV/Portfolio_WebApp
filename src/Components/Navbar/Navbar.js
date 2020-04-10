@@ -26,7 +26,7 @@ export default class Navbar extends Component {
                 to="section1"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={1000}
               >
                 About
@@ -38,7 +38,7 @@ export default class Navbar extends Component {
                 to="section2"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={1000}
               >
                 Resume
@@ -65,7 +65,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={1000}
               >
-                Platforms
+                Technologies
               </Link>
             </li>
             <li className="nav-item">
