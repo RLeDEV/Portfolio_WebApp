@@ -1,87 +1,80 @@
-* {
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.profileImg {
+    flex: 1;
+    text-align: center;
 }
 
- .about-me-header {
-    padding-left: 10vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
-    border: 10px solid #fff;
-    margin: 0px auto;
-    width: 100%;
-    display: table;
-    font-style: 'Raleway', sans-serif;
-} 
+#profileImgPic {
+    width: 200px;
+    height: auto;
+    border-radius: 105px;
+    box-shadow: 0px 2px 5px 0px rgb(209, 209, 209); 
+}
+
+.profileImg .details {
+    padding: 20px;
+    text-align: left;
+}
+
+.profileImg .det {
+    margin-bottom: 5px;
+}
+
+.profileImg .details .detail {
+    font-weight: 500;
+    display: inline-block;
+    background-color: rgb(221, 221, 221);
+    width: auto;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.profileImg .details .detail-desc {
+    display: inline-block;
+    margin-left: 3px;
+    padding: 4px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
 
 .about {
-    background-color: rgba(255, 255, 255, 0.438);
-    border-radius: 25px;
-    /* border: 2px solid rgba(255, 255, 255, 0.308); */
-    box-shadow: 0px 0px 10px 0px rgb(146, 146, 146);
-    margin-left: 355px;
-    margin-right: 30px;
-    padding-left: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(231, 231, 231, 0.548);
+  margin: 10px;  
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+} 
+
+.about-me-content {
+    flex: 1;
 }
 
 .aboutme-title {
     font-size: 80px;
     font-weight: 100;
     line-height: normal;
-    margin: 0px;
 }
 
 .study {
     font-weight: 100;
-    line-height: 0.8em;
-    font-size: 45px;
+    font-size: 1.25rem;
     color: rgb(148, 148, 148);
 }
 
 .about-text {
     font-weight: 100;
-    font-size: 25px;
+    font-size: 1.25rem;
     color: rgb(134, 134, 134);
 }
 
-/* .study {
-    font-size: 25px;
-    color: rgb(29, 29, 29);
-    font-weight: 300;
-}  */
-
-/* .about-text {
-    line-height: 1.5em;
-    color: rgb(56, 56, 56) !important;
-} */
-
-/* .aboutme-title {
-    font-size: 40px;
-} */
-
-/* .about {
-    padding: 20px;
-    margin-right: 20px;
-    margin-top: 2vw;
-    background-color: rgba(255, 255, 255, 0.63);
-    border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.308);
-    box-shadow: 0px 0px 10px 0px rgb(146, 146, 146);
-} */
+@media (max-width: 770px) {
+    .about {
+        flex-direction: column;
+    }
+}
 
 @media (max-width: 960px) {
-    .about {
-        padding: 20px !important;
-        margin: 0 !important;
-        margin-right: 20px !important;
-        background-color: rgba(255, 255, 255, 0.63);
-        border-radius: 10px;
-        border: 2px solid rgba(255, 255, 255, 0.308);
-        box-shadow: 0px 0px 10px 0px rgb(146, 146, 146);
-    }
-
     .aboutme-title {
         font-size: 40px !important;
     }
