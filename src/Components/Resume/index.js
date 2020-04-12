@@ -36,14 +36,17 @@ class Resume extends React.Component {
                     <div className="work">
                         
                                 <i>August 2019 - Present - </i>
-                                    Part-Time position
+                                    Part-Time position - Tools Developer
                     </div>
                     <ul className="general">
                         <li>
-                            I have built a project by myself that helps to resolve problems faster and better by the NOC side.
+                            Using ReactJS, Express and MySQL I used to build custom portals and UI.
                         </li>
                         <li>
-                            During this job, I used to work and specialize in JavaScript, HTML and Python.
+                            Used to specialize in JavaScript, HTML and developed a chrome extension from scratch.
+                        </li>
+                        <li>
+                            I used to build Python CLIs to investigate files.
                         </li>
                         <li>
                             The position required paying attention to very small details and excellent analytic skills.
