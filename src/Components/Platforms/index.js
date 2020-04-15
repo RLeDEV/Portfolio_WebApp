@@ -3,7 +3,6 @@ import cpp from './Icons/icons8-c++-100.png';
 import python from './Icons/icons8-python-100.png';
 import react from './Icons/icons8-react-native-100.png';
 import mysql from './Icons/icons8-mysql-logo-100.png';
-import html from './Icons/icons8-html-5-100.png';
 import javascript from './Icons/icons8-javascript-100.png';
 import css from './Icons/icons8-css3-100.png';
 import java from './Icons/icons8-java-100.png';
@@ -19,8 +18,8 @@ class Frameworks extends React.Component {
     render() {
         return (
             <div id={this.props.id} className="frameworks" style={styles}>
-                <div className="frameworks-title">
-                    {/* <p>Platforms:</p> */}
+                <div className="platforms-tit">
+                    <span className="used-big-title">used</span><span className="platforms-big-title">Platforms</span>
                 </div>
                 <div className="sosial-links">
                     <div className="img">

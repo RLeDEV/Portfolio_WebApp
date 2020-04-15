@@ -1,8 +1,23 @@
 .frameworks *{
-    text-align: center;
+    /* text-align: center; */
     padding-top: 8px;
     font-family: 'Raleway', sans-serif;
     height: 80px;
+}
+
+.platforms-tit {
+    display: block;
+    margin: 0px 40px 40px 40px;
+}
+
+.platforms-big-title {
+    font-size: 12vh;
+    color: rgb(202, 202, 202);
+}
+
+.used-big-title {
+    font-size: 8vh;
+    color: rgb(155, 39, 116) !important;
 }
 
 .frameworks-title {
@@ -12,6 +27,7 @@
 }
 
 .sosial-links {
+    text-align: center;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -37,6 +53,15 @@
     }
 }
 
+@media (max-width: 414px) {
+    .platforms-big-title {
+        font-size: 10vw;
+    }
+    
+    .used-big-title {
+        font-size: 8vw;
+    }
+}
 .img {
     flex: 1 0 auto;
     min-width: 150px;
