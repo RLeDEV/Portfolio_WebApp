@@ -1,0 +1,188 @@
+.portfolio-content {
+    background-image: linear-gradient(to bottom, rgb(243, 243, 243), rgb(255, 255, 255));
+}
+
+.portfolio-tit {
+    display: block;
+    padding: 0 40px 0 40px;
+}
+
+.portfolio-big-title {
+    font-size: 12vh;
+    color: rgb(202, 202, 202);
+}
+
+.my-big-title {
+    font-size: 8vh;
+    color: rgb(155, 39, 116) !important;
+}
+
+.portfolio {
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    background-image: linear-gradient(to bottom, rgb(243, 243, 243), rgb(255, 255, 255));
+    font-family: sans-serif;
+}
+
+.portfolio .box {
+    display: flex;
+    padding: 20px;
+}
+
+.portfolio .box .card {
+    cursor: pointer;
+    position: relative;
+    width: 43vw;
+    height: 20vw;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.portfolio .box .card:before,
+.portfolio .box .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.portfolio .box .card:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio .box .card .imgBx {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #222;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.portfolio .box .card:hover .imgBx {
+    bottom: 100px;
+}
+
+.portfolio .box .card .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio .box .card .details {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 80px;
+    text-align: center;
+}
+
+.portfolio .box .card .details h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+.portfolio .box .card .details h2 .project-name {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f38695;
+    display: block;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+.portfolio .box .card .details h2 .used-technologies {
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(43, 70, 95);
+    display: block;
+    margin: 5px;
+    text-transform: none;
+}
+
+.technologie {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin: 3px;
+    border: 2px solid rgba(219, 219, 219, 0.5);
+    padding: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 15px;
+    text-transform: none;
+}
+
+.used-technologies .react {
+    background-color: #DA8E7D;
+}
+
+.used-technologies .nodejs {
+    background-color: #97DA7D;
+}
+
+.used-technologies .css {
+    background-color: #7DBFDA;
+}
+
+.used-technologies .python {
+    background-color: #DAC67D;
+}
+
+.used-technologies .c {
+    background-color: #f38695;
+}
+
+.used-technologies .cpp {
+    background-color: #8696f3;
+}
+
+.used-technologies .mysql {
+    background-color: #5e8038;
+}
+
+@media (max-width: 414px) {
+    .portfolio .box .card {
+        width: 90vw;
+        height: 45vw;
+    }
+
+    .portfolio-big-title {
+        font-size: 10vw;
+    }
+    
+    .my-big-title {
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .portfolio .box .card {
+        width: 90vw;
+        height: 30vw;
+    }
+}
