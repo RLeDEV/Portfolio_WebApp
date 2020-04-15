@@ -171,6 +171,22 @@
         height: 45vw;
     }
 
+    .portfolio .box .card .imgBx {
+        bottom: 70px;
+    }
+
+    .portfolio .box .card:hover .imgBx {
+        bottom: 70px;
+    }
+
+    .portfolio .box .card .details{
+        height: 50px;
+    }
+
+    .portfolio .box .card .details h2 .project-name {
+        display: none;
+    }
+
     .portfolio-big-title {
         font-size: 10vw;
     }
