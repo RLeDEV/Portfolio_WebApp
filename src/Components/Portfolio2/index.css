@@ -196,7 +196,7 @@
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 680px) {
     .portfolio .box .card {
         width: 90vw;
         height: 30vw;
