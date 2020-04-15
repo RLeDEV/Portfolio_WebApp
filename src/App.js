@@ -5,9 +5,8 @@ import Header from "./Components/Header";
 import About from './Components/About';
 import Frameworks from './Components/Platforms';
 import Resume from './Components/Resume';
-import Portfolio from './Components/Portfolio';
 import KeepTouch from './Components/KeepTouch';
-import dummyText from "./DummyText";
+import Portfolio2 from './Components/Portfolio2';
 class App extends Component {
   render() {
     return (
@@ -16,29 +15,21 @@ class App extends Component {
         <Header />
         <About
           title="Section 1"
-          subtitle={dummyText}
-          dark={true}
           id="section1"
         />
         <Resume
           title="Section 2"
-          subtitle={dummyText}
-          dark={false}
           id="section2"
         />
         <KeepTouch 
           id="KeepTouch"
         />
-        <Portfolio
+        <Portfolio2
           title="Section 3"
-          subtitle={dummyText}
-          dark={true}
           id="section3"
         />
         <Frameworks
           title="Section 5"
-          subtitle={dummyText}
-          dark={true}
           id="section5"
         />
       </div>
