@@ -23,7 +23,7 @@ class About extends React.Component {
                 </div>
                 <div className="btns">
                     <div className="download-btn">
-                        <button type="button" className="btn btn-outline-secondary downloadpdf" onClick={() => window.open('https://www.docdroid.net/file/download/ThMiGb1/razlevy.pdf')}>Download Resume</button>
+                        <button type="button" className="btn btn-outline-secondary downloadpdf" onClick={() => window.open('https://docdro.id/SQIyv8V')}>Download Resume</button>
                     </div>
                     <div className="mail-btn">
                         <button type="button" className="btn btn-outline-secondary" onClick={() => window.open('mailto:bos901@gmail.com')}>Email Me</button>
