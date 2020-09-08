@@ -114,6 +114,42 @@ export default function Portfolio(props) {
                         </div>
                     </div>
                 </div>
+                <div className="box">
+                    <div className="card">
+                        <div className="imgBx">
+                            <a href="http://www.or-sport.com" target="_blank" rel="noopener noreferrer"><img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="images" /></a>
+                        </div>
+                        <div className="details">
+                            <h2>
+                                Or E-K - Sport Therapist
+                                <br/>
+                                <span className="project-name">Frontend Project</span>
+                                <span className="used-technologies">
+                                <span className="technologie react">ReactJS</span>
+                                <span className="technologie nodejs">NodeJS</span>
+                                <span className="technologie css">CSS</span>
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div className="box">
+                    <div className="card">
+                        <div className="imgBx">
+                            <a href="https://github.com/RLeDEV/AutoJob" target="_blank" rel="noopener noreferrer"><img src="https://images.unsplash.com/photo-1568598035424-7070b67317d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80" alt="images" /></a>
+                        </div>
+                        <div className="details">
+                            <h2>
+                                AutoJob
+                                <br/>
+                                <span className="project-name">A sprint that sends jobs automatically to your mail</span>
+                                <span className="used-technologies">
+                                <span className="technologie python">Python</span>
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
